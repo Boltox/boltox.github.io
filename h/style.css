@@ -1,0 +1,56 @@
+body {
+    margin: 5% 13% 0% 13%;
+    background-image: url(/backgroundAdjusted.jpg) ;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-size: large;
+    
+    background-size: 100% auto;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.LolproLink {
+    color: red;
+    font-weight: 900;
+}
+
+.OpGGLink {
+    color: yellow;
+    font-weight: 900;
+}
+
+.matchHistory {
+    height: auto;
+    width: 600px;
+    padding-left: 20%;
+}
+
+.InfoContainer {
+    display: flexbox;
+    
+}
+
+.MatchHistoryContainer {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+.leagueInfoContainer {
+    width: 40%;
+    height: auto;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.452);
+    padding: 2px 2px 2px 2px;
+    border-radius: 30px;
+
+}
+
+.centerText {
+    text-align: center;
+}
+.fandom {
+    color: greenyellow;
+    font-weight: 900;
+}
+
